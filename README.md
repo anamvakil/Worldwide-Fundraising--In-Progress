@@ -1,24 +1,30 @@
 # Worldwide-Fundraising-WIP
 
+## Problem Statement
+The dashboard is too cluttered, making it hard to read and use effectively. As a result, account owners have missed key donor opportunities—potentially costing millions in fundraising. We need to improve readability and engagement to help users quickly spot important insights.
 
-## Make It About Performance using Conditional Formatting
+## Learning Objectives
+- Enhance dashboard readability and user engagement through improved design techniques.
+- Utilize conditional formatting to emphasize key values in widgets.
+- Organize dashboard content into separate, animated pages for better navigation.
+- Implement dynamic interactions to set a reference line based on a calculated average.
+
+## Boost Dashboard Performance with Smart Conditional Formatting
 
 ![image](https://github.com/user-attachments/assets/1d86c85f-8f85-4d9a-a73a-8a2101fe200f)
 
 Now the ABC Seed director can easily see which account owners to congratulate and which to offer assistance
 
-## Let’s Call Out Large Donations
+## Highlight Large Donations with Conditional Formatting
 Time to bring extra attention to large donation opportunities.
 
 ![image](https://github.com/user-attachments/assets/8327e7e7-c6d7-4310-b270-28f751b44de2)
 
 ### Engage Users with Animated Pages
 
-How many times have you seen a dense dashboard with so much information that you didn’t know where to focus your attention? Or one that had information that was irrelevant to you? In Analytics, you can break up dashboards into multiple pages, each with a specific focus and audience.
+Ever seen a cluttered dashboard and didn’t know where to look? Or found data that didn’t matter to you? In this project, I’ve organized the dashboard into multiple pages, each with a clear focus for the right audience. This makes it easier to read, navigate, and use.
 
-## Create the Donations Page
-
-First, let’s help the team focus on donations with a Donations page. So that we don’t lose any existing work, let’s make the current page our primary page. To create the Donations page, we clone the primary page and remove any widgets that we don’t need. You can save a lot of time by cloning pages instead of creating pages and their widgets from scratch.
+To help the team focus on donations, we’ll create a dedicated Donations page. To preserve any existing work, we'll keep the current page as our primary page. Then, to create the Donations page, we'll clone the primary page and remove any widgets that aren’t needed. Cloning pages save a lot of time compared to building pages and widgets from scratch.
 
 ![image](https://github.com/user-attachments/assets/c498daf2-fcb5-4c5a-8d5c-eeb1a083921d)
 
@@ -38,7 +44,8 @@ Using the same process, create the Pipeline page by cloning the Leaderboard page
 
 You’re done with the Pipeline page! Now you just need to build a way for users to navigate between pages. Let’s take care of that now.
 
-## Make Analytics Fun with Animation
+## Bring Analytics to Life with Engaging Animations
+
 You can use a Navigation widget to allow users to toggle between pages. But to create custom links and a cool, dynamic accordion effect, let’s use the link widgets we created.
 
 In the Donations page, connect the Leaderboard link widget to the Leaderboard page by modifying the link widget properties
