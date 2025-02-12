@@ -1,7 +1,9 @@
-# Worldwide-Fundraising-WIP
+# Worldwide-Fundraising
 
 ## Problem Statement
 The dashboard is too cluttered, making it hard to read and use effectively. As a result, account owners have missed key donor opportunities—potentially costing millions in fundraising. We need to improve readability and engagement to help users quickly spot important insights.
+
+![image](https://github.com/user-attachments/assets/56594e05-aee5-4f24-a55a-4b3d3e1cf8a5)
 
 ## Learning Objectives
 - Enhance dashboard readability and user engagement through improved design techniques.
@@ -21,8 +23,6 @@ Time to bring extra attention to large donation opportunities.
 ![image](https://github.com/user-attachments/assets/8327e7e7-c6d7-4310-b270-28f751b44de2)
 
 ### Engage Users with Animated Pages
-
-Ever seen a cluttered dashboard and didn’t know where to look? Or found data that didn’t matter to you? In this project, I’ve organized the dashboard into multiple pages, each with a clear focus for the right audience. This makes it easier to read, navigate, and use.
 
 To help the team focus on donations, we’ll create a dedicated Donations page. To preserve any existing work, we'll keep the current page as our primary page. Then, to create the Donations page, we'll clone the primary page and remove any widgets that aren’t needed. Cloning pages save a lot of time compared to building pages and widgets from scratch.
 
@@ -52,11 +52,9 @@ In the Donations page, connect the Leaderboard link widget to the Leaderboard pa
 
 ![image](https://github.com/user-attachments/assets/a4f06364-a3f5-41c0-a5db-0a254c933893)
 
-NOTE: To test out the links, click Preview, and then click the Donations, Leaderboard, or Pipeline links. Notice how the sections expand and collapse as you select each one—that’s the accordion effect!
-Click the Edit button to continue editing the dashboard. When you first open a multipage dashboard, by default, the dashboard shows the first page. In this case, it’s Primary. We don’t want users to see the Primary page since all of its content is now available on the other pages. Let’s move the Primary page from the first position so that the Donations page opens by default.
-Click the dropdown next to Primary, and click Move Right. Repeat this step two more times to make Primary the last tab. Because the Donations page appears first when you open a dashboard and there’s no link to the Primary page, users can’t access the Primary page while viewing the dashboard. Neat trick, right?
-Save the dashboard.
+## The Final Dashboard:
 
-Excellent! Instead of creating three separate dashboards, we used three pages, which allowed us to reuse widgets. We used similar layouts on the pages to create a neat accordion effect that shows and hides widgets.
+![image](https://github.com/user-attachments/assets/b0149639-0488-4642-a111-dd0555f0e3d0)
+
 
 
